@@ -1,0 +1,132 @@
+/*
+******************************
+CSS Reset codes Starts
+******************************
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*
+******************************
+CSS Reset codes Ends
+******************************
+*/
+#wrapper{
+
+	background-image: url("../images/background.jpg");
+	background-size: 100% 100%;
+	background-position: center 0px;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+
+.contents{
+	margin-top: 60px;
+}
+.content-heading{
+	margin-bottom: 20px;
+}
+.content-heading h1{
+	font-weight: bold;
+	font-size: 60px;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 10px;
+}
+.learn-about{
+	background-color: rgba(0,0,0,0.1);
+	padding-top: 45px;
+	padding-bottom: 45px;
+	padding-left: 30px;
+	color: #fff;
+	font-family: 'Oswald', sans-serif; 
+	max-width: 550px;
+}
+
+.learn-about h3{
+	color: #9dcbdc;
+    font-size: 35px;
+    letter-spacing: 1px;
+    word-spacing: 2px;	
+}
+.learn-about p{
+	font-size: 24px;
+	margin-left: 35px;
+	margin-top: 15px;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+}
+
+.btn-custom{
+	font-family: 'Oswald', sans-serif;
+    background-color: #f7941d;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    padding: 8px 15px;
+    margin-left: 80px;
+    margin-top: 20px; 
+}
+.btn-custom:hover,.btn-custom:focus,.btn-custom:active{
+	outline: 0px !important;
+	color: #fff;
+ }
+
+
+ #footer ul li{
+ 	margin-right: 5px;
+ 	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	font-size: 15px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+
+ }
+
+ #footer ul li a{
+ 	text-decoration: none;
+ 	color: #fff;
+ }
